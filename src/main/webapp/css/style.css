@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+--main-color:#6c0059;
+--black:#13131a;
+--bg:#010103;
+--border: .1rem solid rgba(255,255,255,.3);
+}
+
+*{
+	font-family: 'Nunito', sans-serif;
+	
+}
+
+body
+{
+	margin: 0;
+	height: 100%;
+	font-family: 'Nunito', sans-serif;
+	background-color:black;
+}
+
+.page{
+	background-color:black;
+}
+
+.home{
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(images/keyboard2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.home .content{
+max-width: 70rem;
+}
+ 
+
+.home .content h3{
+position:absolute;
+font-size: 3rem;
+text-transform: uppercase;
+color: #fff;
+max-width: 100rem;
+top:100px;
+left:50px;
+}
+
+.home .content p{
+position: absolute;
+font-size: 1.5rem;
+font-weight: lighter;
+line-height: 1.8;
+padding:1rem 0;
+color:#fff;
+top:150px;
+left:50px;
+}
+
+.home .content .button1{
+position: absolute;
+bottom:50px;
+}
+
+.button1{
+margin-top: 1rem;
+display: inline-block;
+padding: .5rem 3rem;
+font-size: 1rem;
+color: #fff;
+background: var(--main-color);
+cursor: pointer;
+}
+
+.menu .box-container{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+gap:0.7rem;
+
+}
+
+.menu .box-container .box{
+padding-left: 1rem;
+padding-bottom:0.5rem;
+left: 50px;
+text-align:center;
+border: white;
+
+}
+
+.menu .box-container .box img{
+height: 12rem;
+}
+
+.menu .box-container .box h3{
+color: #fff;
+font-size:2.5rem;
+padding:1rem 0;
+}
+
+.menu .box-container .box p{
+color: #fff;
+font-size:1.5rem;
+padding:0.5rem 0;
+}
+
+.menu .box-container .box .price{
+color:#fff;
+font-size:1.5rem;
+padding:1rem 0;
+}
+
+.menu .box-container .box .button{
+top: 50px;
+left: 50px;
+}
+
+.menu .box-container .box .price span{
+font-size:1.5rem;
+text-decoration: line-through;
+font-weight: lighter;
+}
+
+.heading{
+text-align:center;
+color:#fff;
+text-transform: uppercase;
+padding-bottom: 0.5rem;
+font-size: 2.5rem;
+padding-top:1.3rem;
+}
+
+.custom-bg
+{
+	background:#010103 !important;
+	
+}
+
+.custom-bgg
+{
+	background:#6c0059 !important;
+	
+}
+
+.custom-bggg
+{
+	background:#C9A9A6 !important;
+	color: #6c0059 ;
+	
+}
+
+.admin .card{
+	border: 1px solid #6c0059 ;
+}
+
+.card-columns{
+	 justify-content: space-between;
+}
+.card-columns:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.card:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.list-group-item-action active
+{
+	background:#6c0059  !important;
+	border-color:#6c0059  !important;
+}
+
+.mid-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+    
+ }
+ 
+ .non-underline-link{
+   text-decoration: none !important;
+}
+
+.bcontent {
+            margin-top: 10px;
+        }
+        
+        .modal-size {
+    max-width: 80% !important;
+}
+
+.footer{
+background:var(--black);
+text-align: center;
+}
+
+.footer .share{
+padding:1rem 0;
+
+}
+
+.footer .share a{
+height: 5rem;
+width: 5rem;
+line-height: 5rem;
+font-size:1.5rem;
+color:#fff;
+border:var(--border);
+margin: .3rem;
+border-radius: 50%;
+}
+
+.footer .share a:hover{
+background-color:var(--main-color);
+}
+
+
+.try{
+	position: absolute;
+	left: 350px;
+	width: 1500px;
+	
+}
+  
